@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/clssch_content"
+    >
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:showDividers="middle"
+    >
+     <LinearLayout
+       android:layout_width="60dp"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+        android:background="@drawable/clashedule_frame"
+        android:gravity="center"
+       android:layout_weight="1"
+       >
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+        android:textColor="#666666"
+       ></TextView>
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="@dimen/classSchedule_width"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+        android:background="@drawable/clashedule_frame"
+       android:layout_weight="1"
+       >
+       
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       />
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:text="星期一"
+       />
+       
+   </LinearLayout>
+      <LinearLayout
+       android:layout_width="@dimen/classSchedule_width"
+        android:background="@drawable/clashedule_frame"
+       android:layout_weight="1"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="2日"
+       />
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:text="星期二"
+       />
+       
+   </LinearLayout>
+      <LinearLayout
+       android:layout_width="@dimen/classSchedule_width"
+        android:background="@drawable/clashedule_frame"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       >
+       
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="3日"
+       />
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:text="星期三"
+       />
+       
+   </LinearLayout>
+      <LinearLayout
+       android:layout_width="@dimen/classSchedule_width"
+        android:background="@drawable/clashedule_frame"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       >
+       
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="4日"
+       />
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:text="星期四"
+       />
+       
+   </LinearLayout>
+      <LinearLayout
+       android:layout_width="@dimen/classSchedule_width"
+        android:background="@drawable/clashedule_frame"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       >
+       
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="5日"
+       />
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:text="星期五"
+       />
+       
+   </LinearLayout>
+      <LinearLayout
+       android:layout_width="@dimen/classSchedule_width"
+        android:background="@drawable/clashedule_frame"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       >
+       
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="6日"
+       />
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:text="星期六"
+       />
+       
+   </LinearLayout>
+      <LinearLayout
+       android:layout_width="@dimen/classSchedule_width"
+        android:background="@drawable/clashedule_frame"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       >
+       
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+         android:textSize="12sp"
+       />
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:text="星期日"
+       />
+       
+   </LinearLayout>
+    
+    
+</TableRow>
+
+<ScrollView 
+    
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+      <TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:id="@+id/clashedule_course"
+    >
+       </TableLayout>
+    
+    </ScrollView>
+
+</TableLayout>
+</HorizontalScrollView>
