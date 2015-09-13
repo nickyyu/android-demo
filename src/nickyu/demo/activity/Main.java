@@ -24,7 +24,7 @@ public class Main extends ListActivity {
 	private List<Map<String, Object>> initData(){
 		
 		List<Map<String, Object>> list=new ArrayList<Map<String,Object>>();
-		String items[]={"课表"};
+		String items[]={"课表","修改MpAndroidChart柱状图左右滚动"};
 		for(String str:items){
 			Map<String, Object> map=new HashMap<>();
 			map.put("item", str);
@@ -40,6 +40,9 @@ public class Main extends ListActivity {
 		switch (position) {
 		case 0:
 			intent.setClass(Main.this, ClassSchedule.class);
+			break;
+		case 1:
+			intent.setClass(Main.this, BarChartActivity.class);
 			break;
 
 		default:

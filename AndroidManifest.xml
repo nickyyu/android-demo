@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.ClassSchedule"></activity>
+         <activity android:name=".activity.BarChartActivity"></activity>
     </application>
 
 </manifest>
